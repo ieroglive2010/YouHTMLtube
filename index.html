@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Мой Видеохостинг</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+        background-image: url("H:\big107870.jpg");
+        height: 500px
+  }
+  </style>
+
+</head>
+<body>
+  <h1>Мой Видеохостинг</h1>
+
+  <input type="file" id="videoUpload" accept="video/*">
+
+  <div id="videoContainer">
+    <video id="videoPlayer" controls></video>
+  </div>
+
+  <div id="videoList">
+    <h2>Загруженные видео:</h2>
+    <ul id="videoListItems"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 

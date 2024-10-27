@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  #videoContainer {
+    width: 600px;
+    margin: 20px auto;
+  }
+  
+  #videoList {
+    margin-top: 20px;
+  }
+  
